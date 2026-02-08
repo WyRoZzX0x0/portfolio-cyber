@@ -1115,10 +1115,6 @@ export default function Portfolio() {
 
   return (
     <>
-      <Head>
-        <title>Portfolio - Axel B.</title>       {/* Titre de l'onglet */}
-        <link rel="icon" href="/favicon.png" /> {/* Favicon, à mettre dans /public */}
-      </Head>
       <style>{CSS}</style>
       <div className="bg-layer" />
 
