@@ -1094,8 +1094,6 @@ function Terminal() {
           </div>
         ))}
       </div>
-
-      <div className="terminal-cursor"></div>
     </div>
   );
 }
