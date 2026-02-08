@@ -790,9 +790,10 @@ const CSS = `
     .contact-block { flex-direction:column; padding:56px 32px; }
     .contact-right { width:100%; }
     .hero { padding:0 28px; }
+    .hero-terminal { display: none; } /* Cacher le terminal sur tablette/mobile */
     .sec { padding:100px 28px; }
     nav { padding:20px 24px; }
-    .nav-links { gap:20px; }
+    .nav-links { gap:20px; font-size:10px; } /* Réduire taille et espacement */
     footer { padding:36px 24px 28px; }
     .footer-main { flex-direction:column; gap:10px; text-align:center; }
     .project-row { grid-template-columns:40px 1fr auto; }
@@ -805,6 +806,17 @@ const CSS = `
     .project-row-arrow { display: none; }
     .project-details { grid-column: 1; }
     .project-details-inner { padding: 24px 20px; }
+    
+    /* Navigation très petite sur mobile */
+    nav { padding:16px 16px; }
+    .nav-brand-name { font-size:13px; }
+    .nav-brand-mark { width:24px; height:24px; }
+    .nav-brand-mark span { font-size:14px; }
+    .nav-links { gap:12px; font-size:9px; letter-spacing:1.5px; }
+    
+    /* Hero ajusté */
+    .hero { padding:0 16px; }
+    .hero-title { font-size: clamp(48px, 12vw, 72px); }
   }
 `;
 
